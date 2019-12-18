@@ -1,0 +1,25 @@
+{
+  "name": "instaclon",
+  "version": "1.0.0",
+  "description": "Insta Project with Express, Prisma, React, React Native",
+  "repository": "https://github.com/LEGANZAMIN/instaclon.git",
+  "author": "LeeSungmin <lsmin01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "babel-node": "^0.0.1-security",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.6",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
