@@ -3,7 +3,7 @@
 Insta Project with Express, Prisma, React, React Native
 
 -   [x] Create account
--   [ ] Request Secret
+-   [x] Request Secret
 -   [ ] Confirm Secret (Login)
 -   [ ] Log in
 -   [ ] Like / Unlike a photo
