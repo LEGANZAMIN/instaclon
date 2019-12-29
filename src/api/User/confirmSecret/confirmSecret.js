@@ -9,6 +9,10 @@ export default {
             const user = await prisma.user({ email });
             console.log(user.loginSecret);
             if (user.loginSecret === secret) {
+                await prisma.updateUser({
+                    where: { id: user.id },
+                    data: { loginSecret: "" }
+                });
                 // JWT Token
                 return generateToken(user.id);
             } else {
